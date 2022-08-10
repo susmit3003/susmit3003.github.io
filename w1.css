@@ -1,0 +1,215 @@
+
+
+.p
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #030a67;
+    background-color:rgb(145, 218, 243);
+    text-align: center;
+    
+   
+  }
+.a{
+    padding-left :25%;
+    
+    font-size:250%;
+    display: flex;
+    align-content: center;
+    
+    
+}
+.h{
+    font-size: medium;
+    font-family:cursive;
+}
+.p{
+    font-size: 100px;;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image:url("https://media.istockphoto.com/photos/robot-with-education-hud-picture-id966248982?k=20&m=966248982&s=612x612&w=0&h=gq35V9G0kfjKu0ttr90c8p0VraNtqPDkTvqWQ8oXzCk=");
+    
+} 
+.button { 
+    font-size: 30px;
+    transition-duration: 0.4s;
+  }
+ .button:hover{
+    opacity: 0.5;
+ }
+ /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  } 
+  .img1 {
+    border: 5px solid #555;
+    width:30%;
+  }
+  
+  .t{
+    
+   
+    width:30%;
+    border: 3px solid #030a67;
+    background-color:rgb(145, 218, 243);
+    text-align: center;
+    font-size: 100%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .li{
+    
+    margin: auto;
+    width: 60%;
+    border: 3px solid #030a67;
+    background-color:rgb(145, 218, 243);
+    text-align: center;
+    font-size: larger;
+  }
+  x{
+    font-style:italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-decoration: underline;
+    
+  }
+  .li {
+    position: relative;
+    width: 50%;
+    background-color: rgb(145, 218, 243);
+    
+  }
+  
+ .image {
+    opacity: 1;
+    display: block;
+    width: 50%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    background-color: #888;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+  
+  .li:hover .image {
+    opacity: 0.3;
+    
+  }
+  
+  .li:hover .middle {
+    opacity: 0.8;
+    
+  }
+  
+  .text {
+   
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    
+  }
+  .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display:inline;
+    align-items: center;
+    overflow:hidden;
+    bottom: 0;
+    opacity:0.8;
+    position:fixed;
+    
+  }
+  
+  .active {
+    float: left;
+  }
+  
+  .active {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .active:hover {
+    background-color: #111;
+  }
+  end{
+    display:flex;
+  }
+ .new
+ {
+  display:flex;
+ }
+ .image1 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  background-color: #888;
+}
+.li:hover .image1 {
+  opacity: 0.3;
+  
+}
