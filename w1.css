@@ -169,7 +169,7 @@ body{
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    display:inline-flex;
+    display:flex;
     align-items: center;
     overflow:hidden;
     bottom: 0;
@@ -217,4 +217,5 @@ body{
 .fav
 {
   margin:0;
+  
 }
